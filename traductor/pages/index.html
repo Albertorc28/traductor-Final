@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Traductor</title>
+        <script src="/js/libs/jquery-3.3.1.min.js"></script>
+        <script src="/js/libs/moment.min.js"></script>
+        <script type="text/javascript" src="/js/base.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/style.css"> 
+
+    </head>
+    <body>
+        <h2>Envía este texto</h2>
+        <div id="formulario">
+            <table>
+                <tr><td><input type="text" placeholder="Palabra" id="txtTexto" /></td>
+                <td><input type="text" placeholder="Idioma" id="txtIdioma" />
+                    <div id="idiomas">
+                    <select id="sidiomas"></select>
+                </div></td>
+                <td><input type="text" placeholder="Traduccion" id="txtTraduccion" /></td>
+                <td><input type="button" id="btnEnviar" value="Enviar" /></td></tr>
+            </table>
+        </div>
+        <div id="aviso"></div>
+        <table id="Traduccion"> 
+            
+            <thead></thead>
+            
+            <tbody></tbody>
+            
+        </table>
+        <input type="button" id="btnNuevaTraduccion" value="Nueva Traduccion" />
+        <input type="button" id="btnVolver" value="Volver" />
+    </body>
+</html>
